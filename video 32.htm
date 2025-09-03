@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS cards</title>
+    <style>
+        :root {
+            --firstcolor: silver;
+            --seccolor: white;
+        }
+
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: linear-gradient(to top, blue, purple 110%);
+            /* background-color: var(--firstcolor); */
+            place-items: center;
+            display: grid;
+            height: 100vh;
+        }
+
+        .card {
+            height: 400px;
+            width: 244px;
+            background-color: var(--seccolor);
+            border-radius: 7px;
+            overflow: hidden;
+            /* justify-items: center; */
+            /* display: grid; */
+            padding: 4px;
+        }
+
+        img {
+            height: 190px;
+            border-radius: 7px;
+            width: 237px;
+        }
+        /* lorem22 */
+        .caps {
+            color: ;
+            padding: 7px 30px;
+        }
+        .content {
+            padding: 9px;
+        }
+
+        span {
+            border-radius: 14px;
+            border: 2px solid var(--firstcolor);
+            padding: 4px 8px;
+            font-size: 13px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <img src="https://th.bing.com/th?id=ORMS.2a3fb74b794979433632981210b336fb&pid=Wdp&w=268&h=140&qlt=90&c=1&rs=1&dpr=1.25&p=0"
+            alt="crown">
+        <div class="caps">
+            <span>Kingdom</span>
+            <span>Legacy</span>
+        </div>
+        <div class="content">
+            <h1>Crown</h1>
+
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione quod, accusamus similique cupiditate
+                nobis aliquam laboriosam.</p>
+        </div>
+    </div>
+</body>
+
+</html>
